@@ -1,0 +1,57 @@
+html{
+    display:table;
+    margin:auto;
+}
+
+body{
+    display:table-cell;
+    background-color:lightgrey;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1{
+    font-size:60px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#buttons{
+    text-align:center;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    height:30px;
+}
+
+
+.grid{
+    margin: 30px auto;
+    background-color:white;
+    aspect-ratio: 1/1;
+}
+
+.parent{
+    display: flex;
+}
+.child{
+    border:1px solid black;
+    min-height:10px;
+    min-width:10px;
+}
+
+
+.pink{
+    background-color:pink;
+}
+
+.white{
+    background-color: white;
+}
+
+
